@@ -11,14 +11,14 @@
 
 /* 대충 만들어본 반응형 */
 
-@media only screen and (max-width: 784px) {
+@media only screen and (max-width: 1055px) {
     .global-width {
         max-width: fit-content;
         margin: 0 auto;
     }
 }
 
-@media only screen and (min-width: 784px) {
+@media only screen and (min-width: 1055px) {
     .global-width {
         margin: 0 10px;
     }
