@@ -1,0 +1,22 @@
+* {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+#content {
+    height: 310px;
+    margin-top: 30vh;
+    margin-left: 50vh;
+}
+
+.profile_img {
+    width: 300px;
+    height: 290px;
+    border: 10px #22ddaa solid;
+    border-radius: 50%;
+    float: left;
+}
+
+.info {
+    padding-top: 55px;
+    padding-left: 360px;
+}
