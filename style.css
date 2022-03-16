@@ -2,21 +2,40 @@
     font-family: 'Noto Sans KR', sans-serif;
 }
 
-#content {
-    height: 310px;
-    margin-top: 30vh;
-    margin-left: 50vh;
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
 
+/* 대충 만들어본 반응형 */
+
+@media only screen and (max-width: 784px) {
+    .global-width {
+        max-width: fit-content;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (min-width: 784px) {
+    .global-width {
+        margin: 0 10px;
+    }
+
+    .info {
+        padding-top: 30px;
+        padding-left: 360px;
+    }
+}
+
+
 .profile_img {
+    background: url(/src/unknown.png);
+    background-size: cover;
     width: 300px;
     height: 290px;
     border: 10px #22ddaa solid;
     border-radius: 50%;
     float: left;
-}
-
-.info {
-    padding-top: 55px;
-    padding-left: 360px;
 }
